@@ -10,6 +10,6 @@ L'esquema del dispositiu de fitxatxe és:
 
 Esquema del lector de rfid
 
-![Esquema del lector](img/1.png)
+![Esquema del lector](img/2.png)
 
 Tenim els arxiu en fritzing per si a partir dels mateixos volem elaborar una pcb.
