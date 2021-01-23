@@ -42,7 +42,8 @@ byte nuidPICC[4];
 
 String content= "";
 
-char INSERT_SQL[] = "INSERT INTO cefire_valencia.lectura_rfid(lectura,data) VALUES (\"%s\",CURTIME())";
+char INSERT_SQL[] = "INSERT INTO cefire_valencia.lectura_rfid(lectura,data) VALUES (TRIM(\"%s\"),CURTIME())";
+
 char query[128];
 
 
